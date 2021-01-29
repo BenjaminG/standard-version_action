@@ -42,3 +42,4 @@ PACKAGE_TYPE=${PACKAGE_TYPE:-main}
 echo "::set-output name=version::$PACKAGE_VERSION"
 echo "::set-output name=type::$PACKAGE_TYPE"
 echo "Done."
+exit 0
